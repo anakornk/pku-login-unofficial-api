@@ -3,9 +3,9 @@ function check(userName,password){
   var options = {
     method: 'POST',
     url: 'https://iaaa.pku.edu.cn/iaaa/oauthlogin.do',
-    headers: { 'postman-token': '5e3cb6eb-34ad-b2c0-9d95-058c1e9750fa',
-       'cache-control': 'no-cache',
-       'content-type': 'application/x-www-form-urlencoded'
+    headers: {
+      'cache-control': 'no-cache',
+      'content-type': 'application/x-www-form-urlencoded'
     },
     form: {
       appid: 'blackboard',
