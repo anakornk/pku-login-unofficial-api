@@ -1,0 +1,5 @@
+curl -X POST \
+  https://iaaa.pku.edu.cn/iaaa/oauthlogin.do \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -d 'appid=blackboard&userName=SOMEUSERNAME&password=SOMEPASSWORD&redirUrl=http%3A%2F%2Fcourse.pku.edu.cn%2Fwebapps%2Fbb-sso-bb_bb60%2Fexecute%2FauthValidate%2FcampusLogin'
